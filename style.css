@@ -1,0 +1,153 @@
+body {
+    background-color: gray;
+
+}
+
+main {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.circulo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: white;
+    position: absolute;
+}
+.bol {
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
+.bol-0,.bol-1,.bol-2,.bol-3,.bol-4,.bol-5,.bol-6,.bol-7,.bol-8,.bol-9,.circulo {
+    -webkit-box-shadow: 20px 50px 160px 0px #0919f7, 15px 15px 15px 15px rgba(0, 0, 0, 0.678);
+    box-shadow: 5px 5px 16px 0px rgba(0, 140, 255, 0.541), 18px 15px 15px 15px rgba(248, 5, 5, 0.096);
+
+}
+
+
+.bol-1 {
+    background-color: red;
+
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+}
+
+.bol-2 {
+    background-color: white;
+
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+}
+
+.bol-3 {
+    background-color: red;
+
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+}
+
+.bol-4 {
+    background-color: white;
+
+    transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+}
+
+.bol-5 {
+    background-color: red;
+
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+}
+
+.bol-6 {
+    background-color: white;
+
+    transform: scale(0.4);
+    -webkit-transform: scale(0.4);
+    -moz-transform: scale(0.4);
+    -ms-transform: scale(0.4);
+    -o-transform: scale(0.4);
+}
+
+.bol-7 {
+    background-color: red;
+
+    transform: scale(0.3);
+    -webkit-transform: scale(0.3);
+    -moz-transform: scale(0.3);
+    -ms-transform: scale(0.3);
+    -o-transform: scale(0.3);
+}
+
+.bol-8 {
+    background-color: white;
+
+    transform: scale(0.2);
+    -webkit-transform: scale(0.2);
+    -moz-transform: scale(0.2);
+    -ms-transform: scale(0.2);
+    -o-transform: scale(0.2);
+}
+
+.bol-9 {
+    background-color: rgb(0, 110, 255);
+
+    transform: scale(0.1);
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -o-transform: scale(0.1);
+}
+
+
+ .linha-1{
+    width: 300px;
+    height: 3px;
+    background-color: black;
+    position: relative;
+    top: 50%;
+
+} 
+    
+.linha-2{
+    width: 3px;
+    height: 300px;
+    background-color: black;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
